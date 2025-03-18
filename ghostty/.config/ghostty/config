@@ -1,0 +1,10 @@
+# Launch command
+command = /opt/homebrew/bin/nu --config ~/.config/nushell/config.nu
+
+# Theme
+theme = catppuccin-mocha.conf
+
+# Appearance
+macos-titlebar-style = tabs
+window-padding-x = 4
+window-padding-y = 2
