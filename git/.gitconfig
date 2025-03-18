@@ -1,0 +1,19 @@
+[include]
+  path = ~/.gitconfig.local
+
+[init]
+  defaultBranch = main
+
+[core]
+  excludesFile = ~/.gitignore.global
+
+[alias]
+  co = checkout
+  st = status
+  ci = commit
+
+[filter "lfs"]
+  required = true  
+  process = git-lfs filter-process
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
