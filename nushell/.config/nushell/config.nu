@@ -4,6 +4,7 @@ $env.config.buffer_editor = "vi"
 $env.path ++= [
   "/usr/local/bin",
   "/opt/homebrew/bin",
+  "/usr/local/go/bin",
 ]
 
 # Zoxide
