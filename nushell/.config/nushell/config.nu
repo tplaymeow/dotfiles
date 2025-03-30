@@ -1,10 +1,13 @@
 # Env setup
 
 $env.config.buffer_editor = "nvim"
-$env.path ++= [
+$env.path = $env.path | prepend [
+  $"($env.HOME)/.rbenv/bin",
+  $"($env.HOME)/.rbenv/shims",
   "/usr/local/bin",
   "/opt/homebrew/bin",
   "/usr/local/go/bin",
+  "/Applications/Docker.app/Contents/Resources/bin/"
 ]
 
 # Zoxide
