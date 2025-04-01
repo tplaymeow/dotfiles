@@ -2,6 +2,7 @@
 
 $env.config.buffer_editor = "nvim"
 $env.path = $env.path | prepend [
+  $"($env.HOME)/.cargo/bin"
   $"($env.HOME)/.rbenv/bin",
   $"($env.HOME)/.rbenv/shims",
   "/usr/local/bin",
